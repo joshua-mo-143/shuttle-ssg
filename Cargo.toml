@@ -1,0 +1,16 @@
+[package]
+name = "ssg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.20"
+pulldown-cmark = "0.9.3"
+regex = "1.10.2"
+serde = { version = "1.0.192", features = ["derive"] }
+shuttle-axum = "0.32.0"
+shuttle-metadata = "0.32.0"
+shuttle-runtime = "0.32.0"
+tokio = { version = "1.28.2", features = ["fs"] }
+tracing = "0.1.40"
+yaml-front-matter = "0.1.0"
